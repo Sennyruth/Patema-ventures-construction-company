@@ -1,0 +1,388 @@
+/* src/Pages/Home/Home.css */
+.home {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  min-height: 600px;
+  /* background: linear-gradient(to bottom, rgba(236, 240, 245, 0.85), rgba(26, 54, 93, 0.85)),
+              url('../../assets/apartment.jpeg') center/cover; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('../../assets/PHOTO2.jpg') center/cover; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  object-fit: cover;
+  transition: all 0.4s ease;
+  animation: logoFloat 3s ease-in-out infinite;
+}
+
+.hero-logo:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.3);
+  border-color: white;
+}
+
+@keyframes logoFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.cta-button {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+}
+
+.cta-button.primary {
+  background-color: #ffa500;
+  color: white;
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+  padding: 5rem 2rem;
+  background: linear-gradient(to bottom, #f8f9fa 0%, white 100%);
+  position: relative;
+}
+
+.mission-vision .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.mission-box,
+.vision-box {
+  background: white;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.mission-box::before,
+.vision-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+
+.mission-box::before {
+  background: #007bff;
+}
+
+.vision-box::before {
+  background: #ffa500;
+}
+
+.mission-box h2,
+.vision-box h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.mission-box h2::after,
+.vision-box h2::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+}
+
+.mission-box h2::after {
+  background: #007bff;
+}
+
+.vision-box h2::after {
+  background: #ffa500;
+}
+
+.mission-box p,
+.vision-box p {
+  color: #666;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Featured Projects Section */
+.featured-projects {
+  padding: 5rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.featured-projects h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 5rem 2rem;
+  background-color: var(--secondary-color);
+  color: var(--inverted-heading-color);
+}
+
+.why-choose-us h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature {
+  text-align: center;
+  padding: 2rem;
+}
+
+.feature svg {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffa500;
+}
+
+/* Enhanced Testimonials Section */
+.testimonials {
+  padding: 5rem 2rem;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: var(--secondary-color);
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.quote-icon {
+  font-size: 2rem;
+  color: var(--link-hover-color);
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.testimonial-content {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-text-color);
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.testimonial-author {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.testimonial-author h4 {
+  color: var(--inverted-heading-color);
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.testimonial-author .position {
+  color: var(--secondary-text-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.testimonial-author .project {
+  color: #ffa500;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Bottom CTA Section */
+.bottom-cta {
+  padding: 5rem 2rem;
+  text-align: center;
+  background: linear-gradient(rgba(105, 154, 223, 0.85), rgba(26, 54, 93, 0.85)),
+              url('/construction-bg.jpg') center/cover fixed;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+              url('/construction-bg.jpg') center/cover fixed; */
+  color: white;
+}
+
+.bottom-cta h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.bottom-cta p {
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .mission-vision .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1.3rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .project-grid,
+  .features-grid,
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    padding: 2rem;
+  }
+
+  .testimonial-content {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mission-vision,
+  .featured-projects,
+  .why-choose-us,
+  .testimonials,
+  .bottom-cta {
+    padding: 3rem 1rem;
+  }
+
+  .bottom-cta h2 {
+    font-size: 2rem;
+  }
+}

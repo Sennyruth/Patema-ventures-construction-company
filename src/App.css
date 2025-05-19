@@ -1,0 +1,37 @@
+:root{
+  --primary-color: #AABBCC;
+  --secondary-color: #063340;
+  --border-color: #607F96;
+  --primary-text-color: #333;
+  --secondary-text-color: #FFFFFF;
+  --default-heading-color: #303030;
+  --inverted-heading-color: #93CAFF;
+  --default-icon-color: #607F96;
+  --inverted-icon-color: #9ABDDF;
+  --link-hover-color: #ffa500;
+}
+a{
+  color: var(--inverted-heading-color);
+  font-weight: bold;
+}
+a:hover{
+  color: var(--link-hover-color);
+}
+a:visited{
+  color: var(--link-hover-color);
+}
+a:focus{
+  color: var(--link-hover-color);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  margin-top: 80px; /* Adjust based on your header height */
+  flex: 1;
+  padding: 20px;
+}

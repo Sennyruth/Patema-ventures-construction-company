@@ -7,10 +7,10 @@ import Wycliff from '../../assets/Wycliff.jpg';
 import Ann from '../../assets/Ann.jpg';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
-  faAward, 
-  faCertificate, 
-  faHandshake, 
+import {
+  faAward,
+  faCertificate,
+  faHandshake,
   faHeart,
   faUsers,
   faBuilding,
@@ -99,7 +99,7 @@ const About = () => {
             <h1>Welcome to Patema Ventures Limited</h1>
             <h2>About Us</h2>
             <p>Your trusted partner in construction and real estate development. We are committed to excellence,
-            innovation, and building relationships</p>
+              innovation, and building relationships</p>
             <p className="tagline">Building Dreams, Creating Value</p>
           </motion.div>
         </div>
@@ -110,7 +110,7 @@ const About = () => {
         <div className="container">
           <h2>Our Goals</h2>
           <div className="goals-grid">
-            <motion.div 
+            <motion.div
               className="goal-card"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -121,11 +121,11 @@ const About = () => {
               </div>
               <h3>Quality Projects</h3>
               <p>Achieve a minimum of 95% client satisfaction rate
-through the consistent delivery of highquality construction projects on time and within
-budget</p>
+                through the consistent delivery of highquality construction projects on time and within
+                budget</p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               className="goal-card"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -137,10 +137,10 @@ budget</p>
               </div>
               <h3>Sustainability Initiatives</h3>
               <p>Incorporate sustainable practices in at least
-              75% of our projects</p>
+                75% of our projects</p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               className="goal-card"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -152,8 +152,8 @@ budget</p>
               </div>
               <h3>Technology Investment</h3>
               <p>Adopt advanced construction
-technologies and software solutions to
-improve project delivery.</p>
+                technologies and software solutions to
+                improve project delivery.</p>
             </motion.div>
           </div>
         </div>
@@ -162,7 +162,7 @@ improve project delivery.</p>
       {/* History Section */}
       <section className="history-section">
         <div className="container">
-          <motion.div 
+          <motion.div
             className="history-content"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -203,7 +203,7 @@ improve project delivery.</p>
           </motion.h2>
           <div className="team-grid">
             {teamMembers.map((member, index) => (
-              <motion.div 
+              <motion.div
                 className="team-card"
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -233,7 +233,7 @@ improve project delivery.</p>
           <h2>Our Certifications</h2>
           <div className="certifications-grid">
             {certifications.map((cert, index) => (
-              <motion.div 
+              <motion.div
                 className="certification-card"
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -256,7 +256,7 @@ improve project delivery.</p>
           <h2>Our Core Values</h2>
           <div className="values-grid">
             {coreValues.map((value, index) => (
-              <motion.div 
+              <motion.div
                 className="value-card"
                 key={index}
                 initial={{ opacity: 0, y: 20 }}

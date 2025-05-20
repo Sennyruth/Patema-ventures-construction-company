@@ -49,7 +49,7 @@
 }
 
 .hero-content h2 {
-  font-size: 2.2rem;
+  font-size: var(--font-size-h2);
   margin-bottom: 1.5rem;
   color: #ffd700;
 }
@@ -74,7 +74,7 @@
   }
 
   .hero-content h2 {
-    font-size: 1.8rem;
+    font-size: var(--responsive-font-size-h2);
   }
 
   .hero-content p {
@@ -114,7 +114,7 @@
   color: #1A365D;
   text-align: center;
   margin-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: var(--responsive-font-size-h2);
 }
 
 .goals-grid {
@@ -180,7 +180,7 @@
   color: #1A365D;
   text-align: center;
   margin-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: var(--font-size-h2);
 }
 
 .timeline {
@@ -231,7 +231,7 @@
 .team-section h2 {
   text-align: center;
   color: #1A365D;
-  font-size: 2.5rem;
+  font-size: var(--font-size-h2);
   margin-bottom: 3rem;
   font-weight: 700;
 }
@@ -341,7 +341,7 @@
   color: #1A365D;
   text-align: center;
   margin-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: var(--font-size-h2);
 }
 
 .certifications-grid {
@@ -388,7 +388,7 @@
   color: #1A365D;
   text-align: center;
   margin-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: var(--font-size-h2);
 }
 
 .values-grid {

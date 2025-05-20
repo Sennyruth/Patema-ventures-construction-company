@@ -173,7 +173,7 @@ const Home = () => {
       <section className="bottom-cta">
         <h2>Ready to Start Your Construction Project?</h2>
         <p>Let's build your vision together</p>
-        <Link to="/contact" className="cta-button primary">Get Free Consultation</Link>
+        <Link to="/contact" className="cta-button tertiary">Get Free Consultation</Link>
       </section>
     </div>
   );

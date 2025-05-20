@@ -9,6 +9,8 @@
   --default-icon-color: #607F96;
   --inverted-icon-color: #9ABDDF;
   --link-hover-color: #ffa500;
+  --font-size-h2: 2.5rem;
+  --responsive-font-size-h2: 2rem;
 }
 a{
   color: var(--inverted-heading-color);

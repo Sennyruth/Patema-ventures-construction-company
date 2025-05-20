@@ -91,6 +91,12 @@
   color: white;
 }
 
+.cta-button.tertiary {
+  background-color: #ffa500;
+  color: white;
+  font-size: var(--font-size-h2);
+}
+
 /* Mission & Vision Section */
 .mission-vision {
   padding: 5rem 2rem;
@@ -137,7 +143,7 @@
 .mission-box h2,
 .vision-box h2 {
   color: #333;
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   margin-bottom: 1.5rem;
   position: relative;
   display: inline-block;
@@ -330,7 +336,7 @@
 
 .bottom-cta h2 {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: var(--font-size-h2);
 }
 
 .bottom-cta p {
@@ -371,6 +377,10 @@
   .testimonial-content {
     font-size: 1rem;
   }
+
+  .cta-button.tertiary {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -383,6 +393,10 @@
   }
 
   .bottom-cta h2 {
-    font-size: 2rem;
+    font-size: var(--responsive-font-size-h2);
+  }
+
+  .cta-button.tertiary {
+    font-size: 1rem;
   }
 }

@@ -22,7 +22,7 @@ const Header = () => {
         <div className="logo">
           <Link to="/">
             <img src={Logo} alt="Patema Ventures Logo" className="header-logo" />
-            <span>PATEMA VENTURES LTD</span>
+            <span>PATEMA VENTURES LIMITED</span>
           </Link>
         </div>
         

@@ -185,13 +185,20 @@
 
 .process-steps {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
 }
 
 .process-step {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+.process-step p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 250px;
 }
 
 .step-number {

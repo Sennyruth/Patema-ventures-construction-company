@@ -94,7 +94,7 @@
 .cta-button.tertiary {
   background-color: #ffa500;
   color: white;
-  font-size: var(--font-size-h2);
+  font-size: var(--responsive-font-size-h2);
 }
 
 /* Mission & Vision Section */

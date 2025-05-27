@@ -74,7 +74,7 @@ const Services = () => {
       description: "Comprehensive contracting services managing all aspects of construction projects.",
       features: [
         "Project Coordination",
-        "Subcontractor Management",
+        "Subcontract Management",
         "Resource Allocation",
         "Quality Control"
       ]
@@ -125,7 +125,7 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
         >
-          Comprehensive Construction Solutions for Every Need
+          Beautiful heights
         </motion.p>
       </motion.section>
 
@@ -188,10 +188,21 @@ const Services = () => {
               className="process-step"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.4 }}
+              transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
               <div className="step-number">3</div>
+              <h3>Design</h3>
+              <p>Architectural, structural & MEP designs with BOQ</p>
+            </motion.div>
+            <motion.div 
+              className="process-step"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.4 }}
+              viewport={{ once: true }}
+            >
+              <div className="step-number">4</div>
               <h3>Execution</h3>
               <p>Professional construction with regular updates</p>
             </motion.div>
@@ -202,7 +213,7 @@ const Services = () => {
               transition={{ delay: 0.6 }}
               viewport={{ once: true }}
             >
-              <div className="step-number">4</div>
+              <div className="step-number">5</div>
               <h3>Delivery</h3>
               <p>Project completion and quality assurance</p>
             </motion.div>

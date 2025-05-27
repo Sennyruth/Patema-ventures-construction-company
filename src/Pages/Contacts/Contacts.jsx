@@ -20,8 +20,8 @@ const Contacts = () => {
 
     // Send message using EmailJS
     emailjs.send(
-      'service_r71c3mu',
-      'template_dk6x7wi',
+      'service_q3db7i9',
+      'template_fm73rvs',
       {
         from_name: e.target.user_name.value,
         message: e.target.message.value,
@@ -100,19 +100,19 @@ const Contacts = () => {
             
             <div className="info-item">
               <span className="icon">📍</span>
-              <span>Great wall, Beijing Road, Mombasa Rd
-P.O Box 10128 - 00200, Nairobi, Kenya
+              <span>Great wall phase 1,Business block, Beijing Road, Msa Rd.<br/>
+P.O Box 10128 - 00200, Nairobi, Kenya.
 </span>
             </div>
             
             <div className="info-item">
               <span className="icon">📞</span>
-              <span>+254 -7032-98-702</span>
+              <span>+254 -7032-98-702/ +254-7132-18-583</span>
             </div>
             
             <div className="info-item">
               <span className="icon">✉️</span>
-              <span>patemaventuresltd@gmail.com</span>
+              <span>patemaventuresltd@gmail.com<br/>muindemuthengi@gmail.com</span>
             </div>
           </div>
         </div>

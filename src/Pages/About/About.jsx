@@ -25,7 +25,7 @@ const About = () => {
     {
       name: "Eng. Emmanuel Muinde",
       position: "Executive Director",
-      bio: "With over 20 years of experience in construction and project management.",
+      bio: "With over 8 years of experience in house designs.",
       image: Emmanuel
     },
     {
@@ -35,7 +35,7 @@ const About = () => {
       image: Patricia
     },
     {
-      name: "Wycliff Munyalo",
+      name: "Wycliffe Munyalo",
       position: "Construction Manager",
       bio: "Expert in structural engineering and sustainable construction.",
       image: Wycliff
@@ -77,7 +77,7 @@ const About = () => {
       description: "Quality Management System Certification"
     },
     {
-      title: "NCA-1",
+      title: "NCA-6",
       description: "National Construction Authority Category 1 Contractor"
     },
     {
@@ -160,7 +160,7 @@ const About = () => {
       </section>
 
       {/* History Section */}
-      <section className="history-section">
+      {/* <section className="history-section">
         <div className="container">
           <motion.div
             className="history-content"
@@ -188,7 +188,7 @@ const About = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Team Section */}
       <section className="team-section">

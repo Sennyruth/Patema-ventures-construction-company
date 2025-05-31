@@ -24,7 +24,7 @@ const Home = () => {
       name: "Stephen Mwalimu",
       position: "Homeowner",
       content: "The team's professionalism and quality of work in building our family home exceeded our expectations. They were responsive and kept us informed throughout the process.",
-      project: "Residential House, Kitui"
+      project: "Residential House, Syokimau"
     },
     {
       name: "John Kieti",

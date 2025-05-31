@@ -23,7 +23,7 @@ const Footer = () => {
   const contactInfo = {
     email: "patemaventuresltd@gmail.com",
     phone: "+254 -7032-98-702/ +254-7132-18-583 ",
-    address: "Great wall phase 1,Business block, Beijing Road, Msa Rd"
+    address: "Great wall phase 1,Business block, Beijing Road, Msa Rd. P.O Box 10128 - 00200, Nairobi, Kenya."
 
 
   };

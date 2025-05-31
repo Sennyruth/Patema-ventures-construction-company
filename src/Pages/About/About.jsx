@@ -43,7 +43,7 @@ const About = () => {
     {
       name: "Ann Nzambi",
       position: "Architect",
-      bio: "Expert in structural engineering and sustainable construction.",
+      bio: "Expert in house designs and sustainable construction.",
       image: Ann
     }
   ];
@@ -78,7 +78,7 @@ const About = () => {
     },
     {
       title: "NCA-6",
-      description: "National Construction Authority Category 1 Contractor"
+      description: "National Construction Authority Category 6 Contractor"
     },
     {
       title: "NEMA",
